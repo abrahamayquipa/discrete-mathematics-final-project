@@ -1,9 +1,6 @@
 #include <iostream>
 #include "Controladora.h"
 
-void menu() {
-}
-
 int main() {
 	string origen, destino;
 	cout << endl << endl;
@@ -16,6 +13,8 @@ int main() {
 	cout << endl << endl;
 	Controladora* controladora = new Controladora(origen, destino);
 	controladora->verificarEnMatriz1();
+	controladora->verificarEnMatriz();
+	controladora->verificarNoExiste();
 	delete controladora;
 	return 0;
 }
