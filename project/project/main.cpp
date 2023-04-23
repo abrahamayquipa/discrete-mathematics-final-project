@@ -10,11 +10,14 @@ int main() {
 	cout << "\t- Escriba correctamente el nombre de las ciudades" << endl << endl;
 	cout << "\tIngresar origen: "; cin >> origen;
 	cout << "\tIngresar destino: "; cin >> destino;
+
 	cout << endl << endl;
 	Controladora* controladora = new Controladora(origen, destino);
-	controladora->verificarEnMatriz1();
-	controladora->verificarEnMatriz();
+	controladora->matriz1Directo();
+	controladora->matriz2Directo();
+	controladora->matriz3Directo();
 	controladora->verificarNoExiste();
+
 	delete controladora;
 	return 0;
 }

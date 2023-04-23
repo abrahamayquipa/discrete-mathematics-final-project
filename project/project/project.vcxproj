@@ -134,10 +134,11 @@
     <ClInclude Include="Ciudad.h" />
     <ClInclude Include="Controladora.h" />
     <ClInclude Include="MatrizMapa1.h" />
-    <ClInclude Include="MatrizMapa2Bogota.h" />
-    <ClInclude Include="MatrizMapa2ElSalvador.h" />
-    <ClInclude Include="MatrizMapa2Lima.h" />
+    <ClInclude Include="MatrizMapa1Cuadrado.h" />
+    <ClInclude Include="MatrizMapa2Cuadrado.h" />
+    <ClInclude Include="MatrizMapa2.h" />
     <ClInclude Include="MatrizMapa3.h" />
+    <ClInclude Include="MatrizMapa3Cuadrado.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
