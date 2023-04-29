@@ -1,7 +1,15 @@
 #include "Ciudad.h"
 #include "MatrizMapa1.h"
+<<<<<<< HEAD
 #include "MatrizMapa2.h"
 #include "MatrizMapa3.h"
+=======
+#include "MatrizMapa1Cuadrado.h"
+#include "MatrizMapa2.h"
+#include "MatrizMapa2Cuadrado.h"
+#include "MatrizMapa3.h"
+#include "MatrizMapa3Cuadrado.h"
+>>>>>>> 1e6884f0996af46441ed55cf2baa764b41003b40
 
 class Controladora {
 private:
@@ -16,6 +24,7 @@ public:
 
 	~Controladora() {};
 
+<<<<<<< HEAD
 	void getEscalas() {
 		escala1();
 		escala1M2();
@@ -50,6 +59,8 @@ public:
 		cout << "\t" << origen << " - " << destino << endl;
 	}
 
+=======
+>>>>>>> 1e6884f0996af46441ed55cf2baa764b41003b40
 	void matriz1Directo() {
 		for (int i = 0; i < 9; i++) {
 			for (int j = 0; j < 9; j++) {
@@ -80,6 +91,12 @@ public:
 						noExiste = false;
 					}
 				}
+				if (origen == matrizMapa1Cuadrado[i][j].getOrigen() && destino == matrizMapa1Cuadrado[i][j].getDestino()) {
+					if (matrizMapa1Cuadrado[i][j].getValor() == 1) {
+						cout << "\tExiste un vuelo de una escala desde " << matrizMapa1Cuadrado[i][j].getOrigen() << " hasta " << matrizMapa1Cuadrado[i][j].getDestino() << endl;
+					}
+				}
+
 			}
 		}
 	}
@@ -89,6 +106,7 @@ public:
 			for (int j = 0; j < 25; j++) {
 				if (origen == matrizMapa2[i][j].getOrigen() && destino == matrizMapa2[i][j].getDestino()) {
 					if (matrizMapa2[i][j].getValor() == 1) {
+<<<<<<< HEAD
 						anuncioVueloDirecto(matrizMapa2[i][j].getOrigen(), matrizMapa2[i][j].getDestino());
 
 						destinoVueloDirecto(matrizMapa2[i][j].getOrigen(), matrizMapa2[i][j].getDestino());
@@ -116,6 +134,20 @@ public:
 				}
 			}
 		}
+=======
+						cout << "\tExiste vuelo directo de " << matrizMapa2[i][j].getOrigen() << " a " << matrizMapa2[i][j].getDestino() << endl;
+					}
+				}
+				if (origen == matrizMapa2Cuadrado[i][j].getOrigen() && destino == matrizMapa2Cuadrado[i][j].getDestino()) {
+					if (matrizMapa2Cuadrado[i][j].getValor() == 1) {
+						cout << "\tExiste un vuelo de una escala desde " << matrizMapa2Cuadrado[i][j].getOrigen() << " hasta " << matrizMapa2Cuadrado[i][j].getDestino() << endl;
+					}
+				}
+
+			}
+		}
+		noExiste = true;
+>>>>>>> 1e6884f0996af46441ed55cf2baa764b41003b40
 	}
 
 	void matriz3Directo() {
@@ -123,6 +155,7 @@ public:
 			for (int j = 0; j < 25; j++) {
 				if (origen == matrizMapa3[i][j].getOrigen() && destino == matrizMapa3[i][j].getDestino()) {
 					if (matrizMapa3[i][j].getValor() == 1) {
+<<<<<<< HEAD
 						anuncioVueloDirecto(matrizMapa3[i][j].getOrigen(), matrizMapa3[i][j].getDestino());
 
 						destinoVueloDirecto(matrizMapa3[i][j].getOrigen(), matrizMapa3[i][j].getDestino());
@@ -146,13 +179,26 @@ public:
 						destinoVueloDosEscalas(matrizCubica3[i][j].getOrigen(), matrizCubica3[i][j].getDestino());
 
 						noExiste = false;
+=======
+						cout << "\tExiste vuelo directo de " << matrizMapa3[i][j].getOrigen() << " a " << matrizMapa3[i][j].getDestino() << endl;
+>>>>>>> 1e6884f0996af46441ed55cf2baa764b41003b40
 					}
 				}
+				if (origen == matrizMapa3Cuadrado[i][j].getOrigen() && destino == matrizMapa3Cuadrado[i][j].getDestino()) {
+					if (matrizMapa3Cuadrado[i][j].getValor() == 1) {
+						cout << "\tExiste un vuelo de una escala desde " << matrizMapa3Cuadrado[i][j].getOrigen() << " hasta " << matrizMapa3Cuadrado[i][j].getDestino() << endl;
+					}
+				}
+
 			}
 		}
 	}
 
 	void verificarNoExiste() {
+<<<<<<< HEAD
 		if (noExiste == true) cout << "\tNo es posible el vuelo directo/con una escala/con dos escalas";
+=======
+		if (noExiste == true) cout << "\tNo es posible el vuelo directo";
+>>>>>>> 1e6884f0996af46441ed55cf2baa764b41003b40
 	}
 };
