@@ -33,9 +33,24 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MatrizMapa2.h">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrizMapa2Cuadrado.h">
+>>>>>>> 1e6884f0996af46441ed55cf2baa764b41003b40
+>>>>>>> 0a6ec2c70b508208755a647900c1b86c2c305b6b
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Controladora.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrizMapa3Cuadrado.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrizMapa1Cuadrado.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

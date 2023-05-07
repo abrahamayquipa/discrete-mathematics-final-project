@@ -14,6 +14,10 @@ Ciudad matrizMapa1[9][9] = {
 	/*Puerto Maldonado		*/		{ Ciudad("Puerto Maldonado", "Arequipa", 0), Ciudad("Puerto Maldonado", "Cusco", 1), Ciudad("Puerto Maldonado", "Chiclayo", 0), Ciudad("Puerto Maldonado", "Iquitos", 0), Ciudad("Puerto Maldonado", "Juliaca", 0), Ciudad("Puerto Maldonado", "Lima", 0), Ciudad("Puerto Maldonado", "Piura", 0), Ciudad("Puerto Maldonado", "Puerto Maldonado", 0), Ciudad("Puerto Maldonado", "Trujillo", 0)		},
 	/*Trujillo				*/		{ Ciudad("Trujillo", "Arequipa", 0),		 Ciudad("Trujillo", "Cusco",0),			 Ciudad("Trujillo", "Chiclayo", 0),         Ciudad("Trujillo", "Iquitos", 0),         Ciudad("Trujillo", "Juliaca", 0),         Ciudad("Trujillo", "Lima", 1),         Ciudad("Trujillo", "Piura", 0),         Ciudad("Trujillo", "Puerto Maldonado", 0),         Ciudad("Trujillo", "Trujillo", 0)				},
 };
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 0a6ec2c70b508208755a647900c1b86c2c305b6b
 
 Ciudad matrizCuadrada1[9][9];
 Ciudad matrizCubica1[9][9];
@@ -93,7 +97,11 @@ void matrizCubo() {
 	}
 }
 
+<<<<<<< HEAD
 int  rellenarM() {
+=======
+int rellenarM() {
+>>>>>>> 0a6ec2c70b508208755a647900c1b86c2c305b6b
 	for (int i = 0; i < 9; i++) {
 		for (int j = 0; j < 9; j++) {
 			matriz[i][j] = matrizMapa1[i][j].getValor();
@@ -133,4 +141,10 @@ void escala2() {
 			matrizCubica1[i][j].setDestino(d);
 		}
 	}
+<<<<<<< HEAD
 }
+=======
+}
+=======
+>>>>>>> 1e6884f0996af46441ed55cf2baa764b41003b40
+>>>>>>> 0a6ec2c70b508208755a647900c1b86c2c305b6b

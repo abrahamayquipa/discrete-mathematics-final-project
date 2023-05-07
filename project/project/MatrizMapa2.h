@@ -3,7 +3,15 @@
 using namespace std;
 
 Ciudad matrizMapa2[25][25] = {
+<<<<<<< HEAD
 										//Belice											Bogota											Cali										Cancùn											Caracas											Ciudad de Guatemala											Ciudad de Mèxico										Punta Cana											Ciudad de Panama										 Flores											Guayaquil											La Ceiba											La Habana											Liberia											Lima										Managua											Medellin										Quito											Roatàn											San Josè de Costa Rica											San Juan											San Pedro de Sula											San Salvador											Santo Domingo										Tegucigalpa
+=======
+<<<<<<< HEAD
+	//Belice											Bogota											Cali										Cancùn											Caracas											Ciudad de Guatemala											Ciudad de Mèxico										Punta Cana											Ciudad de Panama										 Flores											Guayaquil											La Ceiba											La Habana											Liberia											Lima										Managua											Medellin										Quito											Roatàn											San Josè de Costa Rica											San Juan											San Pedro de Sula											San Salvador											Santo Domingo										Tegucigalpa
+=======
+	//									Belice											Bogota											Cali										Cancùn											Caracas											Ciudad de Guatemala											Ciudad de Mèxico										Punta Cana											Ciudad de Panama										 Flores											Guayaquil											La Ceiba											La Habana											Liberia											Lima										Managua											Medellin										Quito											Roatàn											San Josè de Costa Rica											San Juan											San Pedro de Sula											San Salvador											Santo Domingo										Tegucigalpa
+>>>>>>> 1e6884f0996af46441ed55cf2baa764b41003b40
+>>>>>>> 0a6ec2c70b508208755a647900c1b86c2c305b6b
 	/*Belice 					*/		{ Ciudad("Belice", "Belice", 0),				Ciudad("Belice", "Bogota", 0),					Ciudad("Belice", "Cali", 0),				Ciudad("Belice", "Cancún", 0),					Ciudad("Belice", "Caracas", 0),					Ciudad("Belice", "Ciudad de Guatemala", 0),					Ciudad("Belice", "Ciudad de México", 0),				Ciudad("Belice", "Punta Cana", 0),					Ciudad("Belice", "Ciudad de Panama", 0),				 Ciudad("Belice", "Flores", 0),					Ciudad("Belice", "Guayaquil", 0),					Ciudad("Belice", "La Ceiba", 0),					Ciudad("Belice", "La Habana", 0),					Ciudad("Belice", "Libera", 0),					Ciudad("Belice", "Lima", 0),				Ciudad("Belice", "Managua", 0),					Ciudad("Belice", "Medellin", 0),				Ciudad("Belice", "Quito", 0),					Ciudad("Belice", "Roatán", 0),					Ciudad("Belice", "San José de Costa Rica", 0),                  Ciudad("Belice", "San Juan", 0),					Ciudad("Belice", "San Pedro de Sula", 0),					Ciudad("Belice", "San Salvador", 1),					Ciudad("Belice", "San Domingo", 0),					Ciudad("Belice", "Tegucigalpa", 0),					},
 	/*Bogota 					*/		{ Ciudad("Bogota", "Belice", 0),				Ciudad("Bogota", "Bogota", 0),					Ciudad("Bogota", "Cali", 0),				Ciudad("Bogota", "Cancún", 1),					Ciudad("Bogota", "Caracas", 0),					Ciudad("Bogota", "Ciudad de Guatemala", 1),					Ciudad("Bogota", "Ciudad de México", 1),				Ciudad("Bogota", "Punta Cana", 1),					Ciudad("Bogota", "Ciudad de Panama", 1),				 Ciudad("Bogota", "Flores", 0),					Ciudad("Bogota", "Guayaquil", 0),					Ciudad("Bogota", "La Ceiba", 0),					Ciudad("Bogota", "La Habana", 0),					Ciudad("Bogota", "Libera", 0),					Ciudad("Bogota", "Lima", 0),				Ciudad("Bogota", "Managua", 0),					Ciudad("Bogota", "Medellin", 0),				Ciudad("Bogota", "Quito", 0),					Ciudad("Bogota", "Roatán", 0),					Ciudad("Bogota", "San José de Costa Rica", 1),                  Ciudad("Bogota", "San Juan", 1),					Ciudad("Bogota", "San Pedro de Sula", 0),					Ciudad("Bogota", "San Salvador", 1),					Ciudad("Bogota", "San Domingo", 1),					Ciudad("Bogota", "Tegucigalpa", 0),					},
 	/*Cali 						*/		{ Ciudad("Cali", "Belice", 0),					Ciudad("Cali", "Bogota", 0),					Ciudad("Cali", "Cali", 0),					Ciudad("Cali", "Cancún", 0),					Ciudad("Cali", "Caracas", 0),					Ciudad("Cali", "Ciudad de Guatemala", 0),					Ciudad("Cali", "Ciudad de México", 0),					Ciudad("Cali", "Punta Cana", 0),					Ciudad("Cali", "Ciudad de Panama", 0),					 Ciudad("Cali", "Flores", 0),					Ciudad("Cali", "Guayaquil", 0),						Ciudad("Cali", "La Ceiba", 0),						Ciudad("Cali", "La Habana", 0),						Ciudad("Cali", "Libera", 0),					Ciudad("Cali", "Lima", 0),					Ciudad("Cali", "Managua", 0),					Ciudad("Cali", "Medellin", 0),					Ciudad("Cali", "Quito", 0),						Ciudad("Cali", "Roatán", 0),					Ciudad("Cali", "San José de Costa Rica", 0),					Ciudad("Cali", "San Juan", 0),						Ciudad("Cali", "San Pedro de Sula", 0),						Ciudad("Cali", "San Salvador", 1),						Ciudad("Cali", "San Domingo", 0),					Ciudad("Cali", "Tegucigalpa", 0),					},
@@ -29,6 +37,10 @@ Ciudad matrizMapa2[25][25] = {
 	/*San Salvador				*/		{ Ciudad("San Salvador", "Belice", 1),			Ciudad("San Salvador", "Bogota", 1),			Ciudad("San Salvador", "Cali", 1),          Ciudad("San Salvador", "Cancún", 1),			Ciudad("San Salvador", "Caracas", 0),			Ciudad("San Salvador", "Ciudad de Guatemala", 1),			Ciudad("San Salvador", "Ciudad de México", 1),          Ciudad("San Salvador", "Punta Cana", 0),			Ciudad("San Salvador", "Ciudad de Panama", 1),           Ciudad("San Salvador", "Flores", 0),			Ciudad("San Salvador", "Guayaquil", 1),				Ciudad("San Salvador", "La Ceiba", 0),				Ciudad("San Salvador", "La Habana", 1),				Ciudad("San Salvador", "Libera", 1),			Ciudad("San Salvador", "Lima", 1),			Ciudad("San Salvador", "Managua", 1),			Ciudad("San Salvador", "Medellin", 1),			Ciudad("San Salvador", "Quito", 1),				Ciudad("San Salvador", "Roatán", 1),            Ciudad("San Salvador", "San José de Costa Rica", 1),            Ciudad("San Salvador", "San Juan", 0),              Ciudad("San Salvador", "San Pedro de Sula", 1),             Ciudad("San Salvador", "San Salvador", 0),              Ciudad("San Salvador", "San Domingo", 0),           Ciudad("San Salvador", "Tegucigalpa", 0),			},
 	/*Santo Domingo             */		{ Ciudad("Santo Domingo", "Belice", 0),         Ciudad("Santo Domingo", "Bogota", 1),			Ciudad("Santo Domingo", "Cali", 0),         Ciudad("Santo Domingo", "Cancún", 0),			Ciudad("Santo Domingo", "Caracas", 0),			Ciudad("Santo Domingo", "Ciudad de Guatemala", 0),			Ciudad("Santo Domingo", "Ciudad de México", 0),			Ciudad("Santo Domingo", "Punta Cana", 0),			Ciudad("Santo Domingo", "Ciudad de Panama", 0),          Ciudad("Santo Domingo", "Flores", 0),			Ciudad("Santo Domingo", "Guayaquil", 0),			Ciudad("Santo Domingo", "La Ceiba", 0),				Ciudad("Santo Domingo", "La Habana", 0),			Ciudad("Santo Domingo", "Libera", 0),			Ciudad("Santo Domingo", "Lima", 1),			Ciudad("Santo Domingo", "Managua", 0),			Ciudad("Santo Domingo", "Medellin", 0),         Ciudad("Santo Domingo", "Quito", 0),			Ciudad("Santo Domingo", "Roatán", 0),           Ciudad("Santo Domingo", "San José de Costa Rica", 1),           Ciudad("Santo Domingo", "San Juan", 0),             Ciudad("Santo Domingo", "San Pedro de Sula", 0),            Ciudad("Santo Domingo", "San Salvador", 0),             Ciudad("Santo Domingo", "San Domingo", 0),          Ciudad("Santo Domingo", "Tegucigalpa", 0),			},
 	/*Tegucigalpa               */		{ Ciudad("Tegucigalpa", "Belice", 0),			Ciudad("Tegucigalpa", "Bogota", 0),				Ciudad("Tegucigalpa", "Cali", 0),           Ciudad("Tegucigalpa", "Cancún", 0),				Ciudad("Tegucigalpa", "Caracas", 0),			Ciudad("Tegucigalpa", "Ciudad de Guatemala", 1),			Ciudad("Tegucigalpa", "Ciudad de México", 0),			Ciudad("Tegucigalpa", "Punta Cana", 0),				Ciudad("Tegucigalpa", "Ciudad de Panama", 0),            Ciudad("Tegucigalpa", "Flores", 0),			Ciudad("Tegucigalpa", "Guayaquil", 0),				Ciudad("Tegucigalpa", "La Ceiba", 1),				Ciudad("Tegucigalpa", "La Habana", 0),				Ciudad("Tegucigalpa", "Libera", 0),				Ciudad("Tegucigalpa", "Lima", 0),			Ciudad("Tegucigalpa", "Managua", 0),			Ciudad("Tegucigalpa", "Medellin", 0),			Ciudad("Tegucigalpa", "Quito", 0),				Ciudad("Tegucigalpa", "Roatán", 1),             Ciudad("Tegucigalpa", "San José de Costa Rica", 1),             Ciudad("Tegucigalpa", "San Juan", 0),               Ciudad("Tegucigalpa", "San Pedro de Sula", 1),              Ciudad("Tegucigalpa", "San Salvador", 0),				Ciudad("Tegucigalpa", "San Domingo", 0),            Ciudad("Tegucigalpa", "Tegucigalpa", 0),			},
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 0a6ec2c70b508208755a647900c1b86c2c305b6b
 };
 
 Ciudad matrizCuadrada2[25][25];
@@ -41,6 +53,7 @@ int matrizEscala2M2[25][25];
 
 string getNombre2(int n) {
 	string nombre;
+<<<<<<< HEAD
 	switch (n) {
 	case 0: nombre = "Belice";break;
 	case 1: nombre = "Bogota";break;
@@ -49,6 +62,17 @@ string getNombre2(int n) {
 	case 4: nombre = "Caracas";break;
 	case 5: nombre = "Ciudad de Guatemala";break;
 	case 6: nombre = "Ciudad de México";break;
+=======
+	switch (n)
+	{
+	case 0: nombre = "Belice";break;
+	case 1: nombre = "Bogota";break;
+	case 2: nombre = "Cali";break;
+	case 3: nombre = "Cancùn";break;
+	case 4: nombre = "Caracas";break;
+	case 5: nombre = "Ciudad de Guatemala";break;
+	case 6: nombre = "Ciudad de Mèxico";break;
+>>>>>>> 0a6ec2c70b508208755a647900c1b86c2c305b6b
 	case 7: nombre = "Ciudad de Panama";break;
 	case 8: nombre = "Flores";break;
 	case 9: nombre = "Guayaquil";break;
@@ -61,7 +85,11 @@ string getNombre2(int n) {
 	case 16: nombre = "Punta Cana";break;
 	case 17: nombre = "Quito";break;
 	case 18: nombre = "Roatàn";break;
+<<<<<<< HEAD
 	case 19: nombre = "San José de Costa Rica";break;
+=======
+	case 19: nombre = "San Josè de Costa Rica";break;
+>>>>>>> 0a6ec2c70b508208755a647900c1b86c2c305b6b
 	case 20: nombre = "San Juan";break;
 	case 21: nombre = "San Pedro de Sula";break;
 	case 22: nombre = "San Salvador";break;
@@ -97,7 +125,10 @@ void restarMatriz2(int e) {
 		}
 	}
 };
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0a6ec2c70b508208755a647900c1b86c2c305b6b
 void matrizCuadrado2() {
 	for (int i = 0; i < 25; i++) {
 		for (int j = 0; j < 25; j++) {
@@ -110,7 +141,10 @@ void matrizCuadrado2() {
 		}
 	}
 };
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0a6ec2c70b508208755a647900c1b86c2c305b6b
 void matrizCubo2() {
 	for (int i = 0; i < 25; i++) {
 		for (int j = 0; j < 25; j++) {
@@ -123,7 +157,10 @@ void matrizCubo2() {
 		}
 	}
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0a6ec2c70b508208755a647900c1b86c2c305b6b
 int  rellenarM2() {
 	for (int i = 0; i < 25; i++) {
 		for (int j = 0; j < 25; j++) {
@@ -132,7 +169,10 @@ int  rellenarM2() {
 	}
 	return 0;
 };
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0a6ec2c70b508208755a647900c1b86c2c305b6b
 void escala1M2() {
 	rellenarM2();
 	matrizCuadrado2();
@@ -148,7 +188,10 @@ void escala1M2() {
 		}
 	}
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0a6ec2c70b508208755a647900c1b86c2c305b6b
 void escala2M2() {
 	rellenarM2();
 	matrizCuadrado2();
@@ -164,4 +207,16 @@ void escala2M2() {
 			matrizCubica2[i][j].setDestino(d);
 		}
 	}
+<<<<<<< HEAD
 }
+=======
+}
+
+
+
+
+
+=======
+};
+>>>>>>> 1e6884f0996af46441ed55cf2baa764b41003b40
+>>>>>>> 0a6ec2c70b508208755a647900c1b86c2c305b6b
