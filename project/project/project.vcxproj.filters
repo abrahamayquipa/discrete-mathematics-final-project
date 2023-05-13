@@ -32,13 +32,7 @@
     <ClInclude Include="MatrizMapa3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MatrizMapa2ElSalvador.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MatrizMapa2Lima.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MatrizMapa2Bogota.h">
+    <ClInclude Include="MatrizMapa2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Controladora.h">
